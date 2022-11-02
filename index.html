@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Restorant Web Site</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!--! header section start-->
+    <!--! header section end-->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="image/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#sss">S.S.S</a>
+      </nav>
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="search-form ">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="search here"
+        />
+        <i class="fas-fa-search"> </i>
+      </div>
+      <div class="cart-items-container ">
+        <div class="cart-item">
+          <i class="fas-fa-times"></i>
+          <img src="image/menu-1.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <i class="fas-fa-times"></i>
+          <img src="image/menu-2.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas-fa-times"></i>
+          <img src="image/menu-3.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas-fa-times"></i>
+          <img src="image/menu-4.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+    <!--! header section start-->
+
+    <!--! home section end-->
+    <section class="home " id="home">
+      <div class="content">
+        <h3>EXPRESS HOME DELIVERY</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+          inventore.
+        </p>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+    </section>
+    <!--! home section end-->
+
+    <!--! menu  section start-->
+    <section class="menu" id="menu">
+      <h1 class="heading">our <span>menu</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="image/menu-1.png" alt="menu" />
+            <span class="menu-category">PIZZA</span>
+            <h3>6 Mini Pizzas</h3>
+            <div class="price">$104.99<span>119.90</span></div>
+            <div class="box-bottom">
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="image/menu-2.png" alt="menu" />
+            <span class="menu-category">BURGER</span>
+            <h3>6 Mini Burges</h3>
+            <div class="price">$99.99<span>$120.00</span></div>
+            <div class="box-bottom">
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="box" id="box">
+          <div class="box-head">
+            <img src="image/menu-3.png" alt="menu" />
+            <span class="menu-category">PIZZA</span>
+            <h3>2 Mixed Pizzas</h3>
+            <div class="price">$49.99<span>$699.99</span></div>
+
+            <div class="box-bottom">
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="image/menu-4.png" alt="menu" />
+            <span class="menu-category">BURGER</span>
+            <h3>3 Meatball Burges</h3>
+            <div class="price">$79.99<span>$99.90</span></div>
+            <div class="box-bottom">
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! menu  section end-->
+
+    <!--! products section start-->
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <span class="title">MINI BURGER</span>
+            <a href="#" class="name">Bacon Burger</a>
+          </div>
+          <div class="image">
+            <img src="image/product-1.png" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$6.00</b>
+              <span class="amount">110gr / 300 Cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">DARK BURGER</span>
+            <a href="#" class="name">Dark+Cheese Burger</a>
+          </div>
+          <div class="image">
+            <img src="image/product-2.png" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$6.00</b>
+              <span class="amount">110gr / 300 Cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box dark-bg">
+          <div class="box-head">
+            <span class="title">DOUBLE DARK BURGER</span>
+            <a href="#" class="name">Dark+Cheese Double Burger</a>
+          </div>
+          <div class="image">
+            <img src="image/dark-product.jpg" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$6.00</b>
+              <span class="amount">110gr / 300 Cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! products section end-->
+    <!--! about  section start-->
+    <section class="about" id="about">
+      <h1 class="heading">about<span>us</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="image/about.jpg" alt="about" />
+          <div class="content">
+            <h3>What Is The Secret Recipe Of Our Burgers?</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Inventore.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla?
+            </p>
+            <a href="#" class="btn">learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! about  section end-->
+    <!--!  review start -->
+    <section class="review" id="review">
+      <h1 class="heading">customer's<span>review</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="image/quote.png" alt="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+            asperiores fugit similique, blanditiis eaque consequuntur placeat
+            voluptatem atque voluptatum quia mollitia ipsam itaque repudiandae
+            repellat numquam eum recusandae. Reiciendis, deserunt?
+          </p>
+          <img src="image/avatar-1.png" alt="avatar" class="user" />
+          <h3>Jennifer Becker</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/quote.png" alt="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+            asperiores fugit similique, blanditiis eaque consequuntur placeat
+            voluptatem atque voluptatum quia mollitia ipsam itaque repudiandae
+            repellat numquam eum recusandae. Reiciendis, deserunt?
+          </p>
+          <img src="image/avatar-2.png" alt="avatar" class="user" />
+          <h3>John Doe</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/quote.png" alt="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+            asperiores fugit similique, blanditiis eaque consequuntur placeat
+            voluptatem atque voluptatum quia mollitia ipsam itaque repudiandae
+            repellat numquam eum recusandae. Reiciendis, deserunt?
+          </p>
+          <img src="image/avatar-3.png" alt="avatar" class="user" />
+          <h3>Lisa Arambule</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! about  reiew end-->
+
+    <!--! contact section start-->
+    <section class="contact" id="contact">
+      <h1 class="heading">contact<span>us </span></h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12048.244847532376!2d29.082270000000005!3d40.98014045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac7b749c9ecdf%3A0x41ebb6401d7dbb82!2zS2FkxLFrw7Z5LCBTYWhyYXnEsSBDZWRpdCwgMzQ3MzQgS2FkxLFrw7Z5L8Swc3RhbmJ1bA!5e0!3m2!1sen!2str!4v1666008627977!5m2!1sen!2str"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form>
+          <h3>get in touch</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="number" />
+          </div>
+          <input type="submit" class="btn" value="contact now" />
+        </form>
+      </div>
+    </section>
+    <!--! contact section  end-->
+
+    <!--! blog section  start-->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our<span>blog </span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="image/blog-1.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make burgers?</a>
+            <span>by admin / 10st may , 2020</span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit?
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="image/blog-2.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make burgers?</a>
+            <span>by admin / 10st may , 2020</span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit?
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="image/blog-3.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make burgers?</a>
+            <span>by admin / 10st may , 2020</span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit?
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Burada sıkça sorular sorular kısmı başlıyor.-->
+    <style>
+      .accordion {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+.accordion-item {
+  background-color: #fff;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 0.3rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+}
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  font-size: 17px;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+.accordion-item-header.active::after {
+  content: "\2212";
+}
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  font-family: sans-serif;
+  border-top: 1px solid;
+  font-size: 16px;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+      </style>
+    <section class="sss" id="sss">
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            Pizza ne kadar sürede gelir?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              Çok kısa sürede gelir.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            Pizza ne zaman gelir?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+            Hazır olduğu zaman.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            Online Kredi Kartı ile nasıl ödeme yapabilirim?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              - Sipariş onay ekranında ödeme seçeneklerinden "Online Kredi Kartı" seçeneğini seçtikten sonra yönlendirileceğiniz güvenli ödeme sayfası içerisinde kredi kartı bilgilerinizi doldurduktan sonra siparişinizi tamamlayabilirsiniz.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            Nasıl Hediye Pizza kazanırım?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+            Hiçbir şekilde kazanamazsın.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            Chef’s Place Pizza Ye-Kazan Programı nedir?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              Bu programda üyeler Chef’s Place Pizza siparişi verdikçe daha çok kazanırlar.
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    </section>
+    <script type="text/javascript">
+      const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+      
+      accordionItemHeaders.forEach(accordionItemHeader => {
+        accordionItemHeader.addEventListener("click", event => {
+      
+      
+      
+          accordionItemHeader.classList.toggle("active");
+          const accordionItemBody = accordionItemHeader.nextElementSibling;
+          if(accordionItemHeader.classList.contains("active")) {
+            accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+          }
+          else {
+            accordionItemBody.style.maxHeight = 0;
+          }
+      
+        });
+      });
+      
+      </script>
+    <!-- Burada sıkça sorular sorular kısmı bitiyor.-->
+   
+    <!--! blog section  end-->
+    <!--! footer section  start-->
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Search" />
+        <button class="btn btn-promary">search</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+      <div class="links">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+        <a href="#">Blogs</a>
+        <a href="asd.html">S.S.S</a>
+      </div>
+    </section>
+
+    <!--! footer section  end-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
